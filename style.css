@@ -2,11 +2,55 @@
     background-color: white;
 }
 
+.cus-bg-primary {
+    background-color: rgba(0, 0, 0, 0.303);
+}
+
 .row>* {
     padding-right: 0;
     padding-left: 0;
 }
-a{
+
+a {
     text-decoration: none;
     color: #fff;
+}
+
+.register-section {
+    text-align: left;
+    width: 50%;
+}
+
+.accordion-section,
+.course-section {
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .register-section {
+        text-align: center;
+        width: 100%;
+    }
+
+    .accordion-section,
+    .course-section {
+        width: 100%;
+    }
+
+    .intro-text * {
+        margin: 0;
+    }
+
+    .intro-text h1 {
+        font-size: 18px;
+    }
+
+    .intro-text p {
+        font-size: 10px;
+    }
+
+    .intro-text button {
+        padding: 0 5px;
+        font-size: 10px;
+    }
 }
